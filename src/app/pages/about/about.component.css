@@ -1,0 +1,73 @@
+/* .aboutHeading {
+  align-self: flex-start;
+  color: #551A8B;
+  font-size: 2em;
+  font-weight:bolder;
+  margin: 15px 0px;
+  margin-left: 20%;
+} */
+
+.aboutImage {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  top: 10%;
+}
+
+.img-area {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #551A8B;
+  display: inline-block;
+}
+
+.img-area img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+#aboutName {
+  color: #551A8B;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+
+#aboutDesignation {
+  color: #551A8B;
+  font-size: 0.9em;
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+
+.aboutContent {
+  align-items: center;
+  text-align: justify;
+  text-decoration: none;
+  font-size:large;
+  color: gray;
+  width: 60%;
+}
+
+.aboutIcons {
+  align-self: flex-start;
+  margin-left: 20%;
+}
+
+.aboutIcons a {
+  font-size: larger;
+  text-decoration: none;
+  color: #551A8B;
+}
+
+.aboutIcons a:hover {
+  color: gray;
+}
+
+.fa-linkedin, .fa-github {
+  font-size: xx-large;
+}

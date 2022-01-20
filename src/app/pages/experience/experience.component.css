@@ -1,0 +1,83 @@
+.experienceContent {
+  width: 84%;
+  margin-left: 8%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.experienceContent .expOffice {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #551A8B;
+}
+
+.experienceContent .expLocation {
+  font-size: 1em;
+  color: #551A8B;
+}
+
+.experienceContent .expDuration {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #551A8B;
+  float: right;
+}
+
+.experienceContent .expBody {
+  color: gray;
+}
+
+.experienceContent .expBody ul {
+  margin: 5px 0px;
+}
+
+.experienceContent .expBody .expTech:not(.expTechHead) {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.experienceContent .experience .expBody .expTech span {
+  border: 1px solid #844fb3;
+  border-radius: 30px;
+  color: whitesmoke;
+  background: #844fb3;
+  padding: 1px 7px;
+}
+
+.experienceContent .exp1 {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  transform-origin: left;
+  animation-name: slideFromLeft;
+}
+
+.experienceContent .exp2 {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0.1s;
+  animation-timing-function: ease;
+  transform-origin: left;
+  animation-name: slideFromLeft;
+}
+
+.experienceContent .exp3 {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0.2s;
+  animation-timing-function: ease;
+  transform-origin: left;
+  animation-name: slideFromLeft;
+}
+
+.experienceContent .exp4 {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0.3s;
+  animation-timing-function: ease;
+  transform-origin: left;
+  animation-name: slideFromLeft;
+}
+
+@keyframes slideFromLeft {
+  0%   { transform: translateX(-8%); }
+  100% { transform: translateX(0%); }
+}
